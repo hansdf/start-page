@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(27, 38, 44);
+}
+
+.boxes {
+    color: azure;
+    background-color: rgb(15, 76, 117);
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 5px solid rgb(187, 225, 250);
+    margin: 50px;
+}
