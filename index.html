@@ -7,7 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title">╰（‵□′）╯</h1>
+    
+    <script>
+        function getRandomInt(max) {
+          return Math.floor(Math.random() * max);
+        }
+        let time = getRandomInt(24);
+        let currentState
+        if (time < 12) {
+            currentState = ("Good morning (●'◡'●)")
+        }
+        else if (time <= 18) {
+            currentState = ("Good afternoon (●'◡'●)")
+        }
+        else {
+            currentState = ("Good evening (●'◡'●)")
+        }
+      </script>
+
+    <h1  class="title">   ╰（‵□′）╯    </h1>
     <div id="container">
         <div class="boxes"><link>hello</div>
         <div class="boxes"></div>
