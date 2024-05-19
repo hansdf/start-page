@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <h1 id="title"></h1>
+
     <script>
         function getRandomInt(max) {
           return Math.floor(Math.random() * max);
@@ -23,10 +25,10 @@
         else {
             currentState = ("Good evening (●'◡'●)")
         }
-      </script>
+        document.getElementById("title").innerHTML = currentState
+    </script>
 
-    <h1  class="title">   ╰（‵□′）╯    </h1>
-    <div id="container">
+    <div class="container">
         <div class="boxes"><link>hello</div>
         <div class="boxes"></div>
         <div class="boxes"></div>
@@ -35,16 +37,16 @@
         <div class="boxes"></div>
     </div>
 
-    <div id="container">
+    <div class="container">
         <div class="boxes">hello</div>
         <div class="boxes"><a href="https://www.youtube.com/">youtube</a></div>
         <div class="boxes"><a href="https://www.twitch.tv">twitch</a></div>
-        <div class="boxes"></div>
+        <div class="boxes"><a href="https://www.netflix.com/">netflix</a></div>
         <div class="boxes"></div>
         <div class="boxes"></div>
     </div>
 
-    <div id="container">
+    <div class="container">
         <div class="boxes">hello</div>
         <div class="boxes"></div>
         <div class="boxes"></div>
@@ -52,5 +54,7 @@
         <div class="boxes"></div>
         <div class="boxes"></div>
     </div>
+    document.getElementById("title").innerHTML = currentState
+
 </body>
 </html>

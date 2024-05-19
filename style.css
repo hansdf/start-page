@@ -8,13 +8,13 @@ body {
     background-color: rgb(27, 38, 44);
 }
 
-.title {
+#title {
     text-align: center;
     color: white;
     margin-top: 40px;
 }
 
-#container {
+.container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
