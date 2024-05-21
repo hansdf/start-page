@@ -2,6 +2,12 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
+function darkMode() {
+    let element = document.body;
+    element.classList.toggle("dark-mode")
+}
+
+
 const d = new Date();
 let hour = d.getHours();
 
