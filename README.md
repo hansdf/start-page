@@ -2,7 +2,7 @@
  
 Start page for firefox, replacing the usual new tab speed dial.
 
-Looking to personalize my firefox, and practice html/css and js concepts.
+Looking to personalize and practice html/css and js concepts.
 
 implementation of basic hover animation for the cards.
 
