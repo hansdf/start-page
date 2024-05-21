@@ -3,37 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
 
     <h1 id="title"></h1>
-
-    <script>
-        function getRandomInt(max) {
-          return Math.floor(Math.random() * max);
-        }
-        let time = getRandomInt(24);
-        let currentState
-        if (time < 12) {
-            currentState = ("Good morning (●'◡'●)")
-        }
-        else if (time <= 18) {
-            currentState = ("Good afternoon (●'◡'●)")
-        }
-        else {
-            currentState = ("Good evening (●'◡'●)")
-        }
-        document.getElementById("title").innerHTML = currentState
-    </script>
-
+    
     <div class="container">
         <div class="boxes"><link>hello</div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
+        <div class="boxes"><a href="https://mail.google.com/mail/u/0/">gmail</a></div>
+        <div class="boxes">drive</div>
+        <div class="boxes"><a href="https://www.linkedin.com/feed/">linkedin</a></div>
+        <div class="boxes"><a href="https://www.unisinos.br/minha-unisinos/aluno/">unisinos</a></div>
         <div class="boxes"></div>
     </div>
 
@@ -48,13 +31,12 @@
 
     <div class="container">
         <div class="boxes">hello</div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
-        <div class="boxes"></div>
+        <div class="boxes"><a href="https://chatgpt.com/">chatgpt</a></div>
+        <div class="boxes"><a href="https://coinmarketcap.com/">coinmkt</a></div>
+        <div class="boxes"><a href="https://www.worldtimebuddy.com/">wrldtime</a></div>
+        <div class="boxes"><a href="https://github.com/github">github</a></div>
         <div class="boxes"></div>
     </div>
-    document.getElementById("title").innerHTML = currentState
 
 </body>
 </html>
