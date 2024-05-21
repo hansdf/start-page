@@ -17,4 +17,3 @@ if (hour < 12) {
 let greeting = document.querySelector("#title")
 greeting.textContent = currentState
 
-console.log("the current hour is: " + hour)
